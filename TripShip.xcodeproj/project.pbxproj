@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE38CDB1F2F0F250052EC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */; };
+		7FE38CDD1F2F0F250052EC74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CDC1F2F0F250052EC74 /* ViewController.swift */; };
+		7FE38CE01F2F0F250052EC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CDE1F2F0F250052EC74 /* Main.storyboard */; };
+		7FE38CE21F2F0F250052EC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CE11F2F0F250052EC74 /* Assets.xcassets */; };
+		7FE38CE51F2F0F250052EC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */; };
+		7FE38CF01F2F0F250052EC74 /* TripShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CEF1F2F0F250052EC74 /* TripShipTests.swift */; };
+		7FE38CFB1F2F0F260052EC74 /* TripShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CFA1F2F0F260052EC74 /* TripShipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE38CEC1F2F0F250052EC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE38CCF1F2F0F240052EC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE38CD61F2F0F240052EC74;
+			remoteInfo = TripShip;
+		};
+		7FE38CF71F2F0F260052EC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE38CCF1F2F0F240052EC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE38CD61F2F0F240052EC74;
+			remoteInfo = TripShip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FE38CD71F2F0F250052EC74 /* TripShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FE38CDC1F2F0F250052EC74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FE38CDF1F2F0F250052EC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FE38CE11F2F0F250052EC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FE38CE41F2F0F250052EC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FE38CE61F2F0F250052EC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE38CEB1F2F0F250052EC74 /* TripShipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripShipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE38CEF1F2F0F250052EC74 /* TripShipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShipTests.swift; sourceTree = "<group>"; };
+		7FE38CF11F2F0F250052EC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE38CF61F2F0F250052EC74 /* TripShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE38CFA1F2F0F260052EC74 /* TripShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShipUITests.swift; sourceTree = "<group>"; };
+		7FE38CFC1F2F0F260052EC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE38CD41F2F0F240052EC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CE81F2F0F250052EC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CF31F2F0F250052EC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE38CCE1F2F0F240052EC74 = {
+			isa = PBXGroup;
+			children = (
+				7FE38CD91F2F0F250052EC74 /* TripShip */,
+				7FE38CEE1F2F0F250052EC74 /* TripShipTests */,
+				7FE38CF91F2F0F260052EC74 /* TripShipUITests */,
+				7FE38CD81F2F0F250052EC74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE38CD81F2F0F250052EC74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38CD71F2F0F250052EC74 /* TripShip.app */,
+				7FE38CEB1F2F0F250052EC74 /* TripShipTests.xctest */,
+				7FE38CF61F2F0F250052EC74 /* TripShipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE38CD91F2F0F250052EC74 /* TripShip */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */,
+				7FE38CDC1F2F0F250052EC74 /* ViewController.swift */,
+				7FE38CDE1F2F0F250052EC74 /* Main.storyboard */,
+				7FE38CE11F2F0F250052EC74 /* Assets.xcassets */,
+				7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */,
+				7FE38CE61F2F0F250052EC74 /* Info.plist */,
+			);
+			path = TripShip;
+			sourceTree = "<group>";
+		};
+		7FE38CEE1F2F0F250052EC74 /* TripShipTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38CEF1F2F0F250052EC74 /* TripShipTests.swift */,
+				7FE38CF11F2F0F250052EC74 /* Info.plist */,
+			);
+			path = TripShipTests;
+			sourceTree = "<group>";
+		};
+		7FE38CF91F2F0F260052EC74 /* TripShipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38CFA1F2F0F260052EC74 /* TripShipUITests.swift */,
+				7FE38CFC1F2F0F260052EC74 /* Info.plist */,
+			);
+			path = TripShipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE38CD61F2F0F240052EC74 /* TripShip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE38CFF1F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShip" */;
+			buildPhases = (
+				7FE38CD31F2F0F240052EC74 /* Sources */,
+				7FE38CD41F2F0F240052EC74 /* Frameworks */,
+				7FE38CD51F2F0F240052EC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripShip;
+			productName = TripShip;
+			productReference = 7FE38CD71F2F0F250052EC74 /* TripShip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FE38CEA1F2F0F250052EC74 /* TripShipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE38D021F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipTests" */;
+			buildPhases = (
+				7FE38CE71F2F0F250052EC74 /* Sources */,
+				7FE38CE81F2F0F250052EC74 /* Frameworks */,
+				7FE38CE91F2F0F250052EC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE38CED1F2F0F250052EC74 /* PBXTargetDependency */,
+			);
+			name = TripShipTests;
+			productName = TripShipTests;
+			productReference = 7FE38CEB1F2F0F250052EC74 /* TripShipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FE38CF51F2F0F250052EC74 /* TripShipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE38D051F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipUITests" */;
+			buildPhases = (
+				7FE38CF21F2F0F250052EC74 /* Sources */,
+				7FE38CF31F2F0F250052EC74 /* Frameworks */,
+				7FE38CF41F2F0F250052EC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE38CF81F2F0F260052EC74 /* PBXTargetDependency */,
+			);
+			name = TripShipUITests;
+			productName = TripShipUITests;
+			productReference = 7FE38CF61F2F0F250052EC74 /* TripShipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE38CCF1F2F0F240052EC74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ahmad;
+				TargetAttributes = {
+					7FE38CD61F2F0F240052EC74 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B93PQE7TM3;
+						ProvisioningStyle = Automatic;
+					};
+					7FE38CEA1F2F0F250052EC74 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B93PQE7TM3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FE38CD61F2F0F240052EC74;
+					};
+					7FE38CF51F2F0F250052EC74 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B93PQE7TM3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FE38CD61F2F0F240052EC74;
+					};
+				};
+			};
+			buildConfigurationList = 7FE38CD21F2F0F240052EC74 /* Build configuration list for PBXProject "TripShip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE38CCE1F2F0F240052EC74;
+			productRefGroup = 7FE38CD81F2F0F250052EC74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE38CD61F2F0F240052EC74 /* TripShip */,
+				7FE38CEA1F2F0F250052EC74 /* TripShipTests */,
+				7FE38CF51F2F0F250052EC74 /* TripShipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE38CD51F2F0F240052EC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE38CE51F2F0F250052EC74 /* LaunchScreen.storyboard in Resources */,
+				7FE38CE21F2F0F250052EC74 /* Assets.xcassets in Resources */,
+				7FE38CE01F2F0F250052EC74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CE91F2F0F250052EC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CF41F2F0F250052EC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE38CD31F2F0F240052EC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE38CDD1F2F0F250052EC74 /* ViewController.swift in Sources */,
+				7FE38CDB1F2F0F250052EC74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CE71F2F0F250052EC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE38CF01F2F0F250052EC74 /* TripShipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE38CF21F2F0F250052EC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE38CFB1F2F0F260052EC74 /* TripShipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE38CED1F2F0F250052EC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE38CD61F2F0F240052EC74 /* TripShip */;
+			targetProxy = 7FE38CEC1F2F0F250052EC74 /* PBXContainerItemProxy */;
+		};
+		7FE38CF81F2F0F260052EC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE38CD61F2F0F240052EC74 /* TripShip */;
+			targetProxy = 7FE38CF71F2F0F260052EC74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FE38CDE1F2F0F250052EC74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE38CDF1F2F0F250052EC74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE38CE41F2F0F250052EC74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE38CFD1F2F0F260052EC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE38CFE1F2F0F260052EC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE38D001F2F0F260052EC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7FE38D011F2F0F260052EC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7FE38D031F2F0F260052EC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripShip.app/TripShip";
+			};
+			name = Debug;
+		};
+		7FE38D041F2F0F260052EC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripShip.app/TripShip";
+			};
+			name = Release;
+		};
+		7FE38D061F2F0F260052EC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TripShip;
+			};
+			name = Debug;
+		};
+		7FE38D071F2F0F260052EC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B93PQE7TM3;
+				INFOPLIST_FILE = TripShipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TripShip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE38CD21F2F0F240052EC74 /* Build configuration list for PBXProject "TripShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE38CFD1F2F0F260052EC74 /* Debug */,
+				7FE38CFE1F2F0F260052EC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE38CFF1F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE38D001F2F0F260052EC74 /* Debug */,
+				7FE38D011F2F0F260052EC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FE38D021F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE38D031F2F0F260052EC74 /* Debug */,
+				7FE38D041F2F0F260052EC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FE38D051F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE38D061F2F0F260052EC74 /* Debug */,
+				7FE38D071F2F0F260052EC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE38CCF1F2F0F240052EC74 /* Project object */;
+}
