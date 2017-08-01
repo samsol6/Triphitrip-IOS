@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F454F491F2F71F200D59172 /* add_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F454F471F2F71F200D59172 /* add_marker.png */; };
+		7F454F4A1F2F71F200D59172 /* current_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F454F481F2F71F200D59172 /* current_location.png */; };
+		7F454F4C1F2F733200D59172 /* galleryMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F454F4B1F2F733200D59172 /* galleryMarker.png */; };
 		7FE38CDB1F2F0F250052EC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */; };
-		7FE38CDD1F2F0F250052EC74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CDC1F2F0F250052EC74 /* ViewController.swift */; };
-		7FE38CE01F2F0F250052EC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CDE1F2F0F250052EC74 /* Main.storyboard */; };
 		7FE38CE21F2F0F250052EC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CE11F2F0F250052EC74 /* Assets.xcassets */; };
 		7FE38CE51F2F0F250052EC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */; };
 		7FE38CF01F2F0F250052EC74 /* TripShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CEF1F2F0F250052EC74 /* TripShipTests.swift */; };
 		7FE38CFB1F2F0F260052EC74 /* TripShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38CFA1F2F0F260052EC74 /* TripShipUITests.swift */; };
+		7FE38D0B1F2F173F0052EC74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38D091F2F173F0052EC74 /* HomeViewController.swift */; };
+		7FE38D0C1F2F173F0052EC74 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D0A1F2F173F0052EC74 /* HomeViewController.xib */; };
+		7FE38D101F2F19060052EC74 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D0F1F2F19060052EC74 /* logo.png */; };
+		7FE38D141F2F199C0052EC74 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38D121F2F199C0052EC74 /* SignupViewController.swift */; };
+		7FE38D151F2F199C0052EC74 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D131F2F199C0052EC74 /* SignupViewController.xib */; };
+		7FE38D191F2F20840052EC74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE38D171F2F20840052EC74 /* MapViewController.swift */; };
+		7FE38D1A1F2F20840052EC74 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D181F2F20840052EC74 /* MapViewController.xib */; };
+		7FE38D1D1F2F24CC0052EC74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */; };
+		7FE38D201F2F374C0052EC74 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D1F1F2F374C0052EC74 /* white.png */; };
+		7FE38D231F2F6F480052EC74 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D221F2F6F480052EC74 /* marker.png */; };
+		7FFC27AE1F3075AD00352080 /* MarkerInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F454F471F2F71F200D59172 /* add_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_marker.png; path = images/add_marker.png; sourceTree = "<group>"; };
+		7F454F481F2F71F200D59172 /* current_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = current_location.png; path = images/current_location.png; sourceTree = "<group>"; };
+		7F454F4B1F2F733200D59172 /* galleryMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = galleryMarker.png; path = images/galleryMarker.png; sourceTree = "<group>"; };
 		7FE38CD71F2F0F250052EC74 /* TripShip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripShip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FE38CDC1F2F0F250052EC74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FE38CDF1F2F0F250052EC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FE38CE11F2F0F250052EC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FE38CE41F2F0F250052EC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FE38CE61F2F0F250052EC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		7FE38CF61F2F0F250052EC74 /* TripShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE38CFA1F2F0F260052EC74 /* TripShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripShipUITests.swift; sourceTree = "<group>"; };
 		7FE38CFC1F2F0F260052EC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE38D091F2F173F0052EC74 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewCotroller/HomeViewController.swift; sourceTree = "<group>"; };
+		7FE38D0A1F2F173F0052EC74 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/HomeViewCotroller/HomeViewController.xib; sourceTree = "<group>"; };
+		7FE38D0F1F2F19060052EC74 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		7FE38D121F2F199C0052EC74 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupViewController.swift; path = ViewControllers/SignupViewController/SignupViewController.swift; sourceTree = "<group>"; };
+		7FE38D131F2F199C0052EC74 /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SignupViewController.xib; path = ViewControllers/SignupViewController/SignupViewController.xib; sourceTree = "<group>"; };
+		7FE38D171F2F20840052EC74 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ViewControllers/MapViewController/MapViewController.swift; sourceTree = "<group>"; };
+		7FE38D181F2F20840052EC74 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = ViewControllers/MapViewController/MapViewController.xib; sourceTree = "<group>"; };
+		7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7FE38D1F1F2F374C0052EC74 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = images/white.png; sourceTree = "<group>"; };
+		7FE38D221F2F6F480052EC74 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = images/marker.png; sourceTree = "<group>"; };
+		7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarkerInfo.plist; path = MyPlist/MarkerInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE38D1D1F2F24CC0052EC74 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,7 @@
 				7FE38CEE1F2F0F250052EC74 /* TripShipTests */,
 				7FE38CF91F2F0F260052EC74 /* TripShipUITests */,
 				7FE38CD81F2F0F250052EC74 /* Products */,
+				7FE38D1B1F2F24CC0052EC74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +123,10 @@
 		7FE38CD91F2F0F250052EC74 /* TripShip */ = {
 			isa = PBXGroup;
 			children = (
+				7FFC27AC1F30757100352080 /* MyPlist */,
+				7FE38D0E1F2F18CD0052EC74 /* images */,
+				7FE38D081F2F171E0052EC74 /* ViewControllers */,
 				7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */,
-				7FE38CDC1F2F0F250052EC74 /* ViewController.swift */,
-				7FE38CDE1F2F0F250052EC74 /* Main.storyboard */,
 				7FE38CE11F2F0F250052EC74 /* Assets.xcassets */,
 				7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */,
 				7FE38CE61F2F0F250052EC74 /* Info.plist */,
@@ -123,6 +150,72 @@
 				7FE38CFC1F2F0F260052EC74 /* Info.plist */,
 			);
 			path = TripShipUITests;
+			sourceTree = "<group>";
+		};
+		7FE38D081F2F171E0052EC74 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38D161F2F204B0052EC74 /* MapViewController */,
+				7FE38D111F2F197D0052EC74 /* SignupViewController */,
+				7FE38D0D1F2F17440052EC74 /* HomeViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7FE38D0D1F2F17440052EC74 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38D091F2F173F0052EC74 /* HomeViewController.swift */,
+				7FE38D0A1F2F173F0052EC74 /* HomeViewController.xib */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		7FE38D0E1F2F18CD0052EC74 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7F454F4B1F2F733200D59172 /* galleryMarker.png */,
+				7F454F471F2F71F200D59172 /* add_marker.png */,
+				7F454F481F2F71F200D59172 /* current_location.png */,
+				7FE38D221F2F6F480052EC74 /* marker.png */,
+				7FE38D1F1F2F374C0052EC74 /* white.png */,
+				7FE38D0F1F2F19060052EC74 /* logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7FE38D111F2F197D0052EC74 /* SignupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38D121F2F199C0052EC74 /* SignupViewController.swift */,
+				7FE38D131F2F199C0052EC74 /* SignupViewController.xib */,
+			);
+			name = SignupViewController;
+			sourceTree = "<group>";
+		};
+		7FE38D161F2F204B0052EC74 /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38D171F2F20840052EC74 /* MapViewController.swift */,
+				7FE38D181F2F20840052EC74 /* MapViewController.xib */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		7FE38D1B1F2F24CC0052EC74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FFC27AC1F30757100352080 /* MyPlist */ = {
+			isa = PBXGroup;
+			children = (
+				7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */,
+			);
+			name = MyPlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +287,7 @@
 					7FE38CD61F2F0F240052EC74 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B93PQE7TM3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7FE38CEA1F2F0F250052EC74 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -235,9 +328,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE38D101F2F19060052EC74 /* logo.png in Resources */,
+				7F454F4C1F2F733200D59172 /* galleryMarker.png in Resources */,
+				7FE38D1A1F2F20840052EC74 /* MapViewController.xib in Resources */,
+				7FE38D151F2F199C0052EC74 /* SignupViewController.xib in Resources */,
 				7FE38CE51F2F0F250052EC74 /* LaunchScreen.storyboard in Resources */,
+				7F454F4A1F2F71F200D59172 /* current_location.png in Resources */,
 				7FE38CE21F2F0F250052EC74 /* Assets.xcassets in Resources */,
-				7FE38CE01F2F0F250052EC74 /* Main.storyboard in Resources */,
+				7FE38D201F2F374C0052EC74 /* white.png in Resources */,
+				7FFC27AE1F3075AD00352080 /* MarkerInfo.plist in Resources */,
+				7FE38D0C1F2F173F0052EC74 /* HomeViewController.xib in Resources */,
+				7FE38D231F2F6F480052EC74 /* marker.png in Resources */,
+				7F454F491F2F71F200D59172 /* add_marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FE38CDD1F2F0F250052EC74 /* ViewController.swift in Sources */,
+				7FE38D141F2F199C0052EC74 /* SignupViewController.swift in Sources */,
 				7FE38CDB1F2F0F250052EC74 /* AppDelegate.swift in Sources */,
+				7FE38D0B1F2F173F0052EC74 /* HomeViewController.swift in Sources */,
+				7FE38D191F2F20840052EC74 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7FE38CDE1F2F0F250052EC74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FE38CDF1F2F0F250052EC74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7FE38CE31F2F0F250052EC74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,11 +511,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tyler Brown (279RKCVBF6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tyler Brown (279RKCVBF6)";
 				DEVELOPMENT_TEAM = B93PQE7TM3;
 				INFOPLIST_FILE = TripShip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7add7101-b63d-4791-8f7c-2c1f1e7cb410";
+				PROVISIONING_PROFILE_SPECIFIER = "App Wildcard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +528,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tyler Brown (279RKCVBF6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tyler Brown (279RKCVBF6)";
 				DEVELOPMENT_TEAM = B93PQE7TM3;
 				INFOPLIST_FILE = TripShip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.TripShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7add7101-b63d-4791-8f7c-2c1f1e7cb410";
+				PROVISIONING_PROFILE_SPECIFIER = "App Wildcard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +618,7 @@
 				7FE38D011F2F0F260052EC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE38D021F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +627,7 @@
 				7FE38D041F2F0F260052EC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE38D051F2F0F260052EC74 /* Build configuration list for PBXNativeTarget "TripShipUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +636,7 @@
 				7FE38D071F2F0F260052EC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
