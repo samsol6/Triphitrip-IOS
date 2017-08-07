@@ -83,7 +83,7 @@
                         <action selector="goToCurrentLocation:" destination="-1" eventType="touchUpInside" id="tGk-IO-fNM"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJo-aH-XmM">
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJo-aH-XmM">
                     <rect key="frame" x="13" y="447" width="50" height="50"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -91,9 +91,6 @@
                         <constraint firstAttribute="height" constant="50" id="Yv0-yY-ee0"/>
                     </constraints>
                     <state key="normal" backgroundImage="add_marker.png"/>
-                    <connections>
-                        <action selector="addMarkerBtnClicked:" destination="-1" eventType="touchUpInside" id="KRY-vn-ZX2"/>
-                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zqu-Qw-u4S">
                     <rect key="frame" x="162" y="308" width="50" height="50"/>

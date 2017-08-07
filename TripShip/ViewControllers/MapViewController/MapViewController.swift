@@ -12,6 +12,8 @@ import CoreLocation
 
 class MapViewController: UIViewController, MKMapViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate  {
 
+//    var plistPath : String!
+    
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var myLocationBtn: UIButton!
     @IBOutlet weak var addMarkerBtn: UIButton!
@@ -29,12 +31,146 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIImagePickerContr
     
     var myLocationCoordinate = CLLocationCoordinate2D()
     
+    var demoDict = NSMutableDictionary()
+    
+    func getDataFromPlist(){
+        let path = Bundle.main.path(forResource: "Demo", ofType: "plist")
+        print(path)
+        demoDict = NSMutableDictionary(contentsOfFile: path!)!
+        
+        if let dict : NSMutableDictionary = demoDict{
+            print(dict.value(forKey: "name") ?? "Default name")
+            print(dict.value(forKey: "city") ?? "Default name")
+            print(dict.value(forKey: "city2") ?? "Default name")
+            print(dict.value(forKey: "city3") ?? "Default name")
+        }
+//        let arr : NSArray = dict!.object(forKey: "PhotoUrl") as! [String] as NSArray
+//        print(arr)
+        
+
+        
+//        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) as NSArray
+//        let documentDirectory = paths[0] as! String
+//        let path2 = documentDirectory.appending("MarkerInfo.plist")
+//        print(path2)
+    }
+    
+    
+    func writeDataToPlist(url : String, key : String){
+        let path = Bundle.main.path(forResource: "Demo", ofType: "plist")
+        let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory , .userDomainMask, true) as Array
+        
+        let docPath = directories[0] as String
+        let plistPath =  docPath.appending("/Demo.plist")
+        
+        let fileManager = FileManager.default
+        if(!fileManager.fileExists(atPath: plistPath)){
+            do{
+                try fileManager.copyItem(atPath: path!, toPath: plistPath)
+            }
+            catch{
+                print("copy failure")
+            }
+        }
+        else{
+            print("file already exists")
+        }
+        
+        demoDict.setValue(url, forKey: key)
+        
+//        demoDict.setValue("New York", forKey: "city")
+//        demoDict.setValue("New York2", forKey: "city2")
+//        demoDict.setValue("New York3", forKey: "city3")
+        demoDict.write(toFile: plistPath, atomically: true)
+//        demoDict.write(to: plistPath, atomically: true)
+        
+        
+        if let dict : NSMutableDictionary = demoDict{
+            print(dict.value(forKey: "name") ?? "Default name")
+            print(dict.value(forKey: "city") ?? "Default name")
+        }
+        
+        self.getAgain()
+    }
+    
+    func storeDataIntoPlist(){
+        let path = Bundle.main.path(forResource: "MarkerInfo", ofType: "plist")
+        print(path)
+        var dict = NSMutableDictionary()
+        dict.setValue("wow3", forKey: "item")
+//        dict.write(toFile: path!, automatica: true)
+        
+        let str : String = "wow 3 is the best"
+        do{
+            do{
+             try str.write(toFile: path!, atomically: true, encoding: String.Encoding.utf8)
+            }
+            catch{
+             print(Error.self)
+            }
+        }
+//        dict.write(toFile: <#T##String#>, atomically: <#T##Bool#>)
+    }
+    
+    func myFunc(){
+        
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        let pathForThePlistFile = delegate.plistPathInDocument
+        
+        do{
+            let str = "wow"
+            try str.write(toFile: pathForThePlistFile, atomically: true, encoding: String.Encoding.utf8)
+        }
+        catch{
+            print(error)
+        }
+
+    }
+    
+    func getAgain(){
+        let path = Bundle.main.path(forResource: "Demo", ofType: "plist")
+        let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory , .userDomainMask, true) as Array
+        
+        let docPath = directories[0] as String
+        let plistPath =  docPath.appending("/Demo.plist")
+        
+        var dict2 : NSMutableDictionary = NSMutableDictionary(contentsOfFile: plistPath)!
+        
+        if let dict : NSMutableDictionary = dict2{
+            print(dict.value(forKey: "name") ?? "Default name")
+            print(dict.value(forKey: "city") ?? "Default name")
+            print(dict.value(forKey: "city2") ?? "Default name")
+            print(dict.value(forKey: "city3") ?? "Default name")
+            
+            var lat = self.centerLocation.latitude
+            var long  = self.centerLocation.longitude
+            
+            var key : String = "\(lat)%"+"\(long)"
+            print(dict.value(forKey: key))
+        }
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        //saving data 
+//        let delegate = UIApplication.shared.delegate as! AppDelegate
+//        plistPath = delegate.plistPathInDocument
+        
+//       self.myFunc()
+        
+        //fetching data from plist
+        self.getDataFromPlist()
+//        self.writeDataToPlist()
+        
+        print("now again getting")
+//        self.getAgain()
+//        print("saving")
+//        self.storeDataIntoPlist()
+//        print("again getting")
+//        self.getDataFromPlist()
+        //end
         
         
 //        if(askLocation == true){
@@ -286,6 +422,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIImagePickerContr
             
             imageData = UIImageJPEGRepresentation(pickedImage, 1.0)! as NSData
             //            imageData = UIImagePNGRepresentation(pickedImage)! as NSData
+            var strImage = imageData.base64EncodedString()
+            
+            var lat = self.centerLocation.latitude
+            var long  = self.centerLocation.longitude
+            
+            var key : String = "\(lat)%"+"\(long)"
+            
+            self.writeDataToPlist(url: strImage, key: "key")
 //            self.strImage = imageData.base64EncodedString()
             
             var imageSize: Int = imageData.length
@@ -305,13 +449,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIImagePickerContr
                 //remove cache after fetching image data
                 var annotation = MKPointAnnotation()
                 var title = "wow"
-                var lat = self.mapView.userLocation.coordinate.latitude
-                var long  = self.mapView.userLocation.coordinate.longitude
+                var lat = self.centerLocation.latitude
+                var long  = self.centerLocation.longitude
                 annotation.title = title
                 annotation.coordinate = CLLocationCoordinate2D(latitude: lat, longitude: long)
                 self.mapView.addAnnotation(annotation)
-                
-                self.mapView.showAnnotations(self.mapView.annotations, animated: true)
+//                self.mapView.showAnnotations(self.mapView.annotations, animated: true)
                 
             }
         }

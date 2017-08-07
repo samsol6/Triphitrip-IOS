@@ -25,7 +25,7 @@
 		7FE38D1D1F2F24CC0052EC74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */; };
 		7FE38D201F2F374C0052EC74 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D1F1F2F374C0052EC74 /* white.png */; };
 		7FE38D231F2F6F480052EC74 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE38D221F2F6F480052EC74 /* marker.png */; };
-		7FFC27AE1F3075AD00352080 /* MarkerInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */; };
+		7FFC27B91F30AC7A00352080 /* Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FFC27B81F30AC7A00352080 /* Demo.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 		7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FE38D1F1F2F374C0052EC74 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = images/white.png; sourceTree = "<group>"; };
 		7FE38D221F2F6F480052EC74 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = images/marker.png; sourceTree = "<group>"; };
-		7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarkerInfo.plist; path = MyPlist/MarkerInfo.plist; sourceTree = "<group>"; };
+		7FFC27B81F30AC7A00352080 /* Demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Demo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		7FE38CD91F2F0F250052EC74 /* TripShip */ = {
 			isa = PBXGroup;
 			children = (
-				7FFC27AC1F30757100352080 /* MyPlist */,
+				7FFC27B81F30AC7A00352080 /* Demo.plist */,
 				7FE38D0E1F2F18CD0052EC74 /* images */,
 				7FE38D081F2F171E0052EC74 /* ViewControllers */,
 				7FE38CDA1F2F0F250052EC74 /* AppDelegate.swift */,
@@ -208,14 +208,6 @@
 				7FE38D1C1F2F24CC0052EC74 /* MapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7FFC27AC1F30757100352080 /* MyPlist */ = {
-			isa = PBXGroup;
-			children = (
-				7FFC27AD1F3075AD00352080 /* MarkerInfo.plist */,
-			);
-			name = MyPlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE38D101F2F19060052EC74 /* logo.png in Resources */,
+				7FFC27B91F30AC7A00352080 /* Demo.plist in Resources */,
 				7F454F4C1F2F733200D59172 /* galleryMarker.png in Resources */,
 				7FE38D1A1F2F20840052EC74 /* MapViewController.xib in Resources */,
 				7FE38D151F2F199C0052EC74 /* SignupViewController.xib in Resources */,
@@ -336,7 +329,6 @@
 				7F454F4A1F2F71F200D59172 /* current_location.png in Resources */,
 				7FE38CE21F2F0F250052EC74 /* Assets.xcassets in Resources */,
 				7FE38D201F2F374C0052EC74 /* white.png in Resources */,
-				7FFC27AE1F3075AD00352080 /* MarkerInfo.plist in Resources */,
 				7FE38D0C1F2F173F0052EC74 /* HomeViewController.xib in Resources */,
 				7FE38D231F2F6F480052EC74 /* marker.png in Resources */,
 				7F454F491F2F71F200D59172 /* add_marker.png in Resources */,
